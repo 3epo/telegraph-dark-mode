@@ -1,0 +1,56 @@
+[data-theme="dark"] {
+  /*  Background  */
+  body {
+      background-color: #282a36;
+  }
+
+  /*  Main text color */
+  .tl_article .tl_article_content, .tl_article .tl_article_content .ql-editor * {
+    color: #f3f4f8;
+  }
+
+  .tl_article h1, .tl_article h2, .tl_article .tl_article_content, .tl_article .tl_article_content {
+    color: #79828B;
+  }
+
+  /*  The color of the side of the text */
+  .tl_article.tl_article_edit.title_focused [data-label]:after {
+    color: #f3f4f8;
+  }
+
+  /*  Author name  */
+  .account {
+    color: #fff
+  }
+
+  /*  Quote simbol  */
+  .tl_article .tl_article_content blockquote {
+    border-left: 3px solid #fff;
+  }
+
+  /* Clear text */
+  .tl_article.tl_article_edit [data-placeholder].empty::before {
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  /* Left buttons */
+  .tl_blocks button{
+    filter: invert(1);
+}
+}
+
+button {
+  font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #333;
+  border-radius: 16px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  margin: 0 0 15px;
+  background-color: #fff;
+  cursor: pointer;
+}

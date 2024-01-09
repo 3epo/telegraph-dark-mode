@@ -1,0 +1,18 @@
+{
+    "description": "Adds a dark theme for the telegra.ph website.",
+    "manifest_version": 2,
+    "name": "Telegraph Dark Theme",
+    "version": "1.0",
+    "homepage_url": "https://github.com/3epo/telegraph-dark-mode",
+    "icons": {
+      "48": "icons/telegraph-48.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://telegra.ph/*"],
+        "js": ["insert.js"],
+        "css": ["style.css"]
+      }
+    ]
+}
