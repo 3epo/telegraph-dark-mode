@@ -5,4 +5,4 @@
 3. Enable the extension if it is not enabled automatically and go to the https://telegra.ph/
 ## Screenshots
 ![Screenshot Dark Mode](https://github.com/3epo/telegraph-dark-mode/blob/main/screenshots/telegraph(dark).png)
-![Screenshot Light Mode](https://github.com/3epo/telegraph-dark-mode/blob/main/screenshots/telegraph(dark).png)
+![Screenshot Light Mode](https://github.com/3epo/telegraph-dark-mode/blob/main/screenshots/telegraph(light).png)
