@@ -1,7 +1,7 @@
 [data-theme="dark"] {
-  /*  Background  */
+  /* Background */
   body {
-      background-color: #282a36;
+    background-color: #282a36;
   }
 
   /*  Main text color */
@@ -34,9 +34,19 @@
   }
 
   /* Left buttons */
-  .tl_blocks button{
+  .tl_blocks button {
     filter: invert(1);
+  }
 }
+
+  /* Code box */
+.tl_article .tl_article_content pre {
+  background: #1C1D26;
+}
+
+  /* Code box 2 */
+.tl_article .tl_article_content code {
+  background: #1C1D26;
 }
 
 button {
